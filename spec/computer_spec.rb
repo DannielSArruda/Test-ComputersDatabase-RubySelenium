@@ -24,7 +24,12 @@ describe 'Computer' do
   end
 
   it 'Edit a computer' do
-    @computer.edit('MacBook Pro')
+    @computer.edit('MacBook Pro', 'MacBook Pro Max', '2022-02-03', '2023-02-03', 'Apple Inc.')
+  end
+
+  it 'Delete a computer' do
+    @computer.delete('MacBook Pro')
+
   end
 
 end
